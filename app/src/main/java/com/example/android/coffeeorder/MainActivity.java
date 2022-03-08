@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void increment(View view) {
         quantity++ ;
         display(quantity);
+        showPrice(quantity * 125);
     }
 
     /**
@@ -36,13 +37,16 @@ public class MainActivity extends AppCompatActivity {
 
         else
             display(0);
+
+        showPrice(quantity * 125);
     }
 
     /**
      * This method is called when the order button is clicked.
      */
     public void submitOrder(View view){
-        showPrice(quantity * 125);
+        TextView showOutput = (TextView) findViewById(R.id.totalPrice);
+        showOutput.setText("Your order have been placed successfully!!!");
     }
 
     /**
