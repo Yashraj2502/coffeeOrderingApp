@@ -1,3 +1,25 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Coffee Order</string>
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <string name="toppings">T o p p i n g s :-</string>
+    <string name="whippedCream">Whipped Cream</string>
+    <string name="Chocolate">Chocolate</string>
+    <string name="quantity">q u a n t i t y :-</string>
+    <string name="order">o r d e r</string>
+    
+<!--    For Java file   -->
+    <string name="orderSummaryName">Name: <xliff:g id = "name" example = "Yash">%s</xliff:g> </string>
+    <string name="orderSummaryQuantity">"Quantity: <xliff:g id="quantity" example="1">%d</xliff:g> "</string>
+    <string name="orderSummaryWhippedCream">w/ Whipped Cream</string>
+    <string name="orderSummaryChocolate">w/ Chocolate</string>
+    <string name="orderSummaryPrice">Total Price Rs. <xliff:g id = "price" example = "10">%d</xliff:g></string>
+    <string name="thankYou">Thank You!!!</string>
+
+
+<!--    <string name="orderSummaryQuantity">"Quantity: <xliff:g id="quantity" example="1">%d</xliff:g> "</string>-->
 </resources>
